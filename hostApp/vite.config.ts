@@ -8,14 +8,11 @@ export default defineConfig({
     federation({
       name: 'hostApp',
       remotes: {
-        'walletApp': 'http://localhost:5002/assets/remoteEntry.js', 
+        'walletApp': 'http://localhost:5002/assets/remoteEntry1.js', 
       },
       shared: ['react', 'react-dom','react-router-dom'],
     }),
   ],
-  server: {
-    port: 5000,
-  },
   build: {
     target: "esnext",
     minify: false,

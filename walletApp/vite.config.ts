@@ -7,9 +7,9 @@ export default defineConfig({
     react(),
     federation({
       name: 'walletApp',
-      filename: 'remoteEntry.js',
+      filename: 'remoteEntry1.js',
       exposes: {
-        './WalletComponent': './src/Wallet.tsx'
+        './WalletComponent1': './src/WalletComponent.tsx'
       },
       shared: ['react', 'react-dom','react-router-dom'],
     }),

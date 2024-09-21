@@ -1,1 +1,1 @@
-{"root":["./src/app.tsx","./src/wallet.tsx","./src/main.tsx","./src/vite-env.d.ts"],"version":"5.6.2"}
+{"root":["./src/app.tsx","./src/wallet.tsx","./src/walletcomponent.tsx","./src/main.tsx","./src/vite-env.d.ts"],"version":"5.6.2"}
